@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-bwq4
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/partner-catalog/partner-catalog-bwq4@sha256:9239b29a47fdcfcc494f060fba43af297e8babb4804ad415694d7c0da3a98995
+        name: my-java-springboot
+        resources: {}
+status: {}
