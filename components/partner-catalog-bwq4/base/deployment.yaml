@@ -28,7 +28,7 @@ spec:
       - env:
         - name: MY_NAME
           value: ANJOSEPH
-        image: java-springboot-image:latest
+        image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/partner-catalog/partner-catalog-bwq4@sha256:659b9ddc99d3e1500f572a3f870415a7c43c2ea75e345459b33927c2a8c3c5e6
         name: my-java-springboot
         ports:
         - containerPort: 8081
